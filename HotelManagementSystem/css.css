@@ -1,0 +1,199 @@
+p{
+    color: brown;
+}
+body{
+  background-color: lightblue;
+}
+body.bb{
+  background-image: url(aa.jpg);
+  background-repeat:no-repeat ;
+  position: relative;
+  background-size: cover;
+}
+body.zzzz{
+  background-image: url(zz.jpg);
+}
+body.ww{
+
+ background-color: lightblue;
+ text-align: center;
+}
+body.yy{
+   background-color: lightblue;
+   background-size:100%;
+   background-image: url("Happiness.jpg");
+   background-repeat: no-repeat;
+}
+h1{
+    color: cornsilk;
+    font-family:monospace;
+}
+h1.y{
+    text-align: center;
+}
+h2.y{
+    text-align: center;
+}
+h2{
+    color: cornsilk;
+}
+h2.x{
+    color: wheat;
+}
+table.xxx{
+  background-color: aliceblue;
+  color: wheat;
+}
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  
+  
+  input[ type=password ] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  input[ type=email ] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  input[ type=tel ] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  select {
+    padding: 4px 5px;
+  }
+  /* Style the top navigation bar */
+.topnav {
+
+  overflow: hidden;
+  background-color: #1F2B8F;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #E0D470;
+    color:#1F2B8F;
+  }
+  div.we{
+    color: wheat;
+  }
+  div.xx{
+    color: wheat;
+  }
+  div.z{
+    color: wheat;
+    text-align: center;
+  }
+  div.c{
+    text-align: left;
+  }
+  div.v {
+    background-color: #F1F1F1;
+    text-align:center;
+    padding: 10px;
+  }
+ h1.Gallery{
+    text-align: center;
+    font: size 500px;
+    text-decoration: double;
+    position: relative;
+ }
+ div.gallery{
+    
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        position: relative;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+ 
+ div.room{
+    text-align: center;
+ }
+ /* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: url("check-lg.svg");
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "X";
+}

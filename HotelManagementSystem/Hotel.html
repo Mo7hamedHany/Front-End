@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="css.css">
+    <title > Happiness Hotel </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="yy" >
+    
+  <h1 class="y" > ________ Happiness Hotel ________ <br> <h2 class="y" >___________ Cairo,Egypt ___________ </h2> </h1>  
+  <br><br>
+  <div class="topnav">
+    <a href="D:\College education\Front End\HotelManagementSystem\Signup.Html">Sign up</a>
+    <a href="D:\College education\Front End\HotelManagementSystem\login.html">Log In</a>
+    <a href="#">About</a>
+    <a href="#">Conatct Us</a>
+  </div>
+  <br><br><br>
+  <!-- <div class="we">
+   <p> <a href="file:///D:/College%20education/Front%20End/Group%20Project/Signup.Html"> <span style="color:wheat ;">Sign Up </span> </a> </p>
+   <p> <a href="file:///D:/College%20education/Front%20End/Group%20Project/login.html"><span style="color:wheat ;"> Sign In </span> </a> </p>
+</div> -->
+   <hr>
+   <div class="c">
+    <b>
+        <div class="xx">
+  <h2 class="x"> Overview </h2> 
+    <li><a href="D:\College education\Front End\HotelManagementSystem\why.html"> <span style="color:wheat;"> Why Happiness Hotel in Cairo </span> </a> </li>
+    <li> <a href="D:\College education\Front End\HotelManagementSystem\Rooms.html"> <span style="color:wheat ;"> Room and suits </span> </a> </li>
+    <li> <a href="D:\College education\Front End\HotelManagementSystem\Gallery.html"> <span style="color:wheat ;"> Gallery </span> </a> </li>
+    <li>  View more </li>
+</b>
+</table>
+</div>
+</div>
+    <br>
+    <hr>
+    <form>
+        <div class="z">
+            <b>
+    <label for="date"> Check in Date </label>
+        <input type="date" name="udate" id="udate">
+        
+        <label for="date"> Check out date </label>
+        <input type="date" name="udate" id="udate">
+       
+    <label for="cars">Choose Number of Rooms:</label>
+       <select id="mmm" name="mmm">
+        <option value="1 Room">1 Room</option>
+        <option value="2 Rooms">2 Rooms</option>
+        <option value="3 Rooms">3 Rooms</option>
+        <option value="4 Rooms">4 Rooms</option>
+       </select>
+       <br><br>
+       <input type="button"  value="Book now" onclick="document.getElementById('demo').innerHTML='you Booked Succesfully'">
+       <br>
+      <b> <p style="color:darkgreen ;" id="demo"></p> </b>
+    </b>
+    </form>
+    
+</div>
+
+    <hr>
+    <br><br>
+    <div class="v">
+    <p> Conatct us on <span style="color:blue ;"> +201144182187 </span> </p>
+    <p>
+        we are here to help you :)
+    </p>
+    <br><br><br><br><br><br><br><br><br><br>
+    <p> All copyrights are reserved to Eng. Mohamed Hany 
+    </p>
+</div>
+<script>
+    fetch('http://localhost:3000/groupArray')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+</script>
+</body>
+</html>

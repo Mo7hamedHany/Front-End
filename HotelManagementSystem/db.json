@@ -1,0 +1,35 @@
+{
+    "groupArray": [
+        {
+            "roomId": "123",
+            "firstNight": "2022-09-29",
+            "lastNight": "2022-10-06",
+            "numAdult": "3",
+            "guestTitle": "Mr",
+            "guestFirstName": "Mido",
+            "guestName": "ElMasry",
+            "guestEmail": "midomashakel@yahoo.com"
+        },
+        {
+            "roomId": "456",
+            "firstNight": "2022-11-20",
+            "lastNight": "2022-11-30",
+            "numAdult": "2",
+            "guestTitle": "Mrs",
+            "guestFirstName": "Samia",
+            "guestName": "Jones",
+            "guestEmail": "Samiaelhadya@msn.com"
+        },
+        {
+            "roomId": "789",
+            "firstNight": "2022-12-20",
+            "lastNight": "2022-11-30",
+            "numAdult": "1",
+            "guestTitle": "Eng",
+            "guestFirstName": "Luka",
+            "guestName": "Modric",
+            "guestEmail": "anawadmoskela@hotmail.com"
+        }
+    
+    ]
+    }
